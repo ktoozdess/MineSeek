@@ -1,0 +1,41 @@
+body{
+    color: #AAACB3;
+    background-color: #18181D;
+}
+a{
+    color: #8C8F94;
+    text-decoration: none;
+}
+a:hover{
+    color: #F0A726;
+}
+header{
+    background-color: #2B2F35;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+}
+nav{
+    .navbar-logo{
+        font-size: 32px;
+        line-height: 21px;
+    }
+    .navbar-nav{
+        margin-left: 30px;
+    }
+    .navbar-link{
+        font-size: 22px;
+    }
+    .nav-item{
+        margin: 0px 20px;
+    }
+   
+}
+@media screen and (max-width: 992px){
+    nav{
+        .navbar-nav{
+            margin-left: 0px;
+        }
+        
+    }
+}
