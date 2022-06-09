@@ -1,5 +1,5 @@
 body{
-    color: #AAACB3;
+    color: #c2c3c4;
     background-color: #18181D;
 }
 a{
@@ -19,6 +19,7 @@ nav{
     .navbar-logo{
         font-size: 32px;
         line-height: 21px;
+        color: #F0A726;
     }
     .navbar-nav{
         margin-left: 30px;
@@ -30,6 +31,25 @@ nav{
         margin: 0px 20px;
     }
    
+}
+.main-container{
+    margin: 30px;
+    padding: 20px;
+    background-color: #2B2F35;
+    border-radius: 10px;
+    background-image: url('../img/home-background.png');
+    height: 700px;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    .main-container-txt{
+        color: #c2c3c4;
+        .btn{
+            background-color: #F0A726;
+        }
+      }
 }
 @media screen and (max-width: 992px){
     nav{

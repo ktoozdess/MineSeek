@@ -1,5 +1,5 @@
 body {
-  color: #AAACB3;
+  color: #c2c3c4;
   background-color: #18181D;
 }
 
@@ -26,6 +26,7 @@ header {
 nav .navbar-logo {
   font-size: 32px;
   line-height: 21px;
+  color: #F0A726;
 }
 nav .navbar-nav {
   margin-left: 30px;
@@ -35,6 +36,34 @@ nav .navbar-link {
 }
 nav .nav-item {
   margin: 0px 20px;
+}
+
+.main-container {
+  margin: 30px;
+  padding: 20px;
+  background-color: #2B2F35;
+  border-radius: 10px;
+  background-image: url("../img/home-background.png");
+  height: 700px;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.main-container .main-container-txt {
+  color: #c2c3c4;
+}
+.main-container .main-container-txt .btn {
+  background-color: #F0A726;
 }
 
 @media screen and (max-width: 992px) {
